@@ -1,0 +1,240 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:arial;
+    border:border-box;
+}
+:root{
+    --color:#0f1111;
+    --color2:#222f3d;
+    
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    height:60px;
+    background-color:var(--color);
+    color:white;
+    align-items: center;
+    
+}
+/*box 1*/
+.navbarlogo{
+    height:50px;
+    width:100px;
+}
+.logo
+{background-image:url(amazon_logo.png);
+    height:50px;
+    width:100%;
+    background-size:cover;
+}
+.border{
+    border:1.5px solid transperent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/*box 2*/
+.address-icon{
+    display:flex; 
+}
+
+.deliver{
+    font-size:0.8rem;
+    color:#cccccc;
+    margin-left:15px;
+}
+.coutry{
+font-size:1rem;
+}
+/*box3*/
+.searchbar{
+    display:flex;
+    justify-items:space-evenly;
+    border-radius:4px;
+    width:625px;
+    height:40px;
+    background-color:pink;
+}
+select{
+    background-color:#f3f3f3;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    width:50px;
+    border:none;
+}
+
+.search{
+    width:100%;
+    font-size:1rem;
+   border:none;
+}
+.icon{
+    
+    background-color:rgb(250, 151, 3);
+    width:45px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:none;
+    font-size:1.5rem;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:var(--color);
+
+}
+.searchbar:hover{
+    border:2px solid orange;
+}
+/*box 4*/
+.lang{
+    font-weight:700;
+}
+/*box 5*/
+.sign-first{
+    font-size:0.7rem;
+}
+.list{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/*box6*/
+.cart i{
+    font-size:30px;
+}
+.cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+/*pannel*/
+.pannel{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height:40px;
+    background-color:var(--color2);
+    color:white;
+}
+.pannel-all{
+    padding:9px;
+}
+.panel-options p{
+    display:inline; 
+    padding:9px;
+}
+.panel-options{
+    width:70%;
+    font-size:0.85rem;  
+}
+.pannel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+    padding:9px;
+}
+/*hero section*/
+.hero-section{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    background-image:url("hero_image.jpg");
+    height:350px;
+    background-size:cover;
+}
+.hero-message{
+    width:95%;
+    display:flex;
+    justify-content:center;
+    height:40px;
+    background-color:white;
+    align-items:center;
+    color:black;
+    font-size:0.85rem;
+    margin-bottom:25px;
+}
+a{
+    text-decoration:none;
+    color:#007185;
+}
+/*shop section*/
+.shop-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    background-color:#e2e7e6;
+    
+}
+.box{
+    height:400px;
+    width:23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-top:15px;
+}
+.box-image{
+    height:300px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.content{
+    margin-left:1rem;
+    margin-right:1rem;
+}
+/*footer*/
+.foot-pannel-one{
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.85rem;
+    margin-top:15px;
+}
+.foot-pannel-two{
+    display:flex;
+    justify-content:space-around;
+    background-color:var(--color2);
+    color:white;
+    height:300px;
+}
+ul a{
+display:block;
+color:#dddddd;
+font-size:0.85rem;
+margin-top:10px;
+}
+ul{
+    margin-top:20px;
+}
+.foot-pannel-three{
+    background-color:var(--color2);
+    color:white;
+    border-top:0.5px solid white; 
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.logo
+{
+    height:50px;
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+    width:100px
+}
+.foot-pannel-four{
+    background-color:var(--color);
+    color:white;
+    height:80px;
+    font-size:0.7rem;
+    text-align:center;
+}
+.page{
+padding-top:5px;
+}
+.copyright{
+    padding-top:5px;
+}
